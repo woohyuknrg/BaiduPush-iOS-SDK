@@ -1,6 +1,6 @@
 //
 //  BPush.h
-//  Version: 1.4.5
+//  Version: 1.4.6
 //  百度云推送iOS版本头文件 //
 //
 
@@ -86,7 +86,7 @@ typedef void (^BPushCallBack)(id result, NSError *error);
 /**
  * 关闭 lbs
  * @param
- *      - 关闭lbs推送模式，默认是开启的，用户可以选择关闭 需要在调用绑定接口前调用。
+ *      - 关闭lbs推送模式，默认是开启的，用户可以选择关闭
  * @return
  *     none
  */
